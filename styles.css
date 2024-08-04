@@ -1,1 +1,125 @@
 /* Write your CSS here! */
+/* elements */
+body {
+    background-color: white;
+    /* Google fonts */
+    font-size: 11pt;
+    font-weight: 400;
+    color: #333;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #BB133E;
+    height: auto;
+    padding: 20px;  
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    padding: 30px 100px;
+    box-sizing: border-box;
+}
+
+footer {
+    color: white;
+    background-color: #BB133E;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+h1 {
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 3.5rem;
+    /* font-weight: 700; */
+    margin : 0px 0px 10px;
+}
+
+h2 {
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 1.5rem;
+    /* font-weight: 700; */
+    margin : 0px 0px 10px;
+}
+
+h3 {
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0F4761;
+    margin : 5px;
+}
+h4 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0F4761;
+    margin : 0px 0px 10px;
+}
+
+p{
+    text-align: justify;
+    margin: .5rem 0px;
+}
+
+img {
+    width: 250px;
+    margin: 10px 0px;
+}
+
+hr {
+    height: .4rem;
+    background-color:  #BB133E
+
+}
+
+a { /* Links */
+    color: red;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color:aqua !important;
+}
+
+a:visited {
+    color:#002147;
+}
+
+/* Ids */
+#page-title {
+    color: white;
+    text-align: center;
+}
+
+#tagline {
+    color: white;
+    text-align:center;
+    margin: 0px;
+}
+
+#intro {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Classes */
+
+.right {
+    float: right;
+    margin-left: 20px
+}
+
+.bordered {
+    border: 10px dashed red;
+    padding: 0px;
+    /* border-color: aqua; */
+}
