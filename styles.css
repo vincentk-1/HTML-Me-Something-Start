@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #BB133E;
+    background-color: #0F4761;
     height: auto;
     padding: 20px;  
     margin: 0px;
@@ -28,7 +28,7 @@ main {
 
 footer {
     color: white;
-    background-color: #BB133E;
+    background-color: #0F4761;
     text-align: center;
     height: auto;
     padding: 20px;
@@ -70,8 +70,8 @@ p{
 }
 
 img {
-    width: 250px;
-    margin: 10px 0px;
+    width: 400px;
+    margin: 5px 0px;
 }
 
 hr {
@@ -95,8 +95,8 @@ a:visited {
 }
 
 /* Ids */
-#page-title {
-    color: white;
+#mainHeading {
+    color: red;
     text-align: center;
 }
 
@@ -106,8 +106,9 @@ a:visited {
     margin: 0px;
 }
 
-#intro {
-    font-style: italic;
+#testP {
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -118,8 +119,22 @@ a:visited {
     margin-left: 20px
 }
 
+.left {
+    float: left;
+    margin-right: 700px;
+    margin-left: 450px
+}
+
 .bordered {
-    border: 10px dashed red;
     padding: 0px;
     /* border-color: aqua; */
+}
+
+.funParagraph {
+    color: green;
+    text-align: center;  
+}
+.powers {
+    color: green;
+    text-align: right;  
 }
