@@ -2,7 +2,6 @@
 /* elements */
 body {
     background-color: white;
-    /* Google fonts */
     font-size: 11pt;
     font-weight: 400;
     color: #333;
@@ -36,21 +35,16 @@ footer {
 }
 
 h1 {
-    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 3.5rem;
-    /* font-weight: 700; */
     margin : 0px 0px 10px;
 }
 
 h2 {
-    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 1.5rem;
-    /* font-weight: 700; */
     margin : 0px 0px 10px;
 }
 
 h3 {
-    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 2rem;
     font-weight: 700;
     color: #0F4761;
@@ -70,7 +64,7 @@ p{
 }
 
 img {
-    width: 400px;
+    width: 350px;
     margin: 5px 0px;
 }
 
@@ -111,6 +105,9 @@ a:visited {
     font-weight: 400;
     margin-bottom: 20px;
 }
+#copyright{
+    text-align:center;
+}
 
 /* Classes */
 
@@ -119,15 +116,8 @@ a:visited {
     margin-left: 20px
 }
 
-.left {
-    float: left;
-    margin-right: 700px;
-    margin-left: 450px
-}
-
 .bordered {
     padding: 0px;
-    /* border-color: aqua; */
 }
 
 .funParagraph {
